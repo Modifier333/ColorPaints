@@ -1,0 +1,201 @@
+*{
+    user-select: none;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial;
+    
+}
+.container{
+    background-color: white;
+    width: 100%;
+    height: 400px;
+    position: relative;
+
+}
+header{
+    width: 100%;
+    min-height: 100px;
+    background-color: white;
+
+}
+body{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+#header_div{
+    width: 100%;
+
+}
+#logo_div{
+    float: left;
+    width: 25%;
+    min-height: 100px;
+    text-align: center;
+    
+}
+#logo_div img{
+    width: 200px;
+    min-height: 70px;
+    line-height: 100px;
+}
+
+
+#nav_div{
+    width: 50%;
+    min-height: 100px;
+    float: left;
+    text-align: center;
+    
+}
+
+#nav_div ul{
+    
+    list-style-type: none;
+    
+}
+#nav_div ul li{
+    display: inline-block;
+    text-align: center;
+    line-height: 100px;
+   margin-left: 20px;
+    
+    
+}
+
+#nav_div ul li a{
+    text-decoration: none;
+    color:#223a5c;
+    transition: 0.6s ease;
+    padding: 5px 20px;
+    
+    
+}
+#nav_div ul li a:hover{
+    text-decoration: none;
+    color: white;
+    
+    background-color: #223a5c;
+    border-radius: 10px;
+    
+}
+#nav_div ul li a.active {
+    text-decoration: none;
+    color: white;
+    
+    background-color: #223a5c;
+    border-radius: 10px;
+    
+}
+
+
+#sociallinks_div{
+    cursor: pointer;
+    margin-top: 10px;
+    width: 25%;
+    float: right;
+    text-align: center;
+    min-height: 100px;
+    line-height: 100px;
+    
+}
+.fb, .ig, .wa{
+    width: 40px;
+    min-height: 30px;
+    line-height: 100px;
+    margin-left: 20px;
+    
+}
+
+.contact{
+    width: 100%;
+    min-height: auto;
+    background-color: azure;
+    margin-top: 25px;
+    
+    
+}
+#contactTitle{
+    width: 100%;
+    min-height: auto;
+    text-align: center;
+    color: #223a5c;
+}
+#contactDetails{
+width: 100%;
+min-height:200px;
+}
+#call{
+    margin-left: 60px;
+    width: 100%;
+    min-height: auto;
+    display: inline-block;
+    margin-top: 50px;
+    position:relative;
+   
+    
+    
+}
+#call a{
+    
+text-decoration: none;
+color: #223a5c;
+}
+#callName{
+    color: black;
+    margin-right: 30px;
+    margin-left: 10px;
+}
+#mail{
+    margin-left: 60px;
+    width: 100%;
+    min-height: auto;
+    display: inline-block;
+    margin-top: 10px;
+    position:relative;
+   
+    
+    
+}
+#mail a{    
+text-decoration: none;
+color: #223a5c;
+}
+#mailName{
+    color: black;
+    margin-right: 30px;
+    margin-left: 10px;
+}
+#location{
+    margin-left: 60px;
+    width: 100%;
+    min-height: auto;
+    display: inline-block;
+    margin-top: 10px;
+    position:relative;
+   
+    
+    
+}
+#location a{
+    color: #223a5c;
+text-decoration: none;
+
+}
+#locationName{
+    color: black;
+    margin-right: 30px;
+    margin-left: 10px;
+}
+
+.bottom{
+    cursor: pointer;
+    margin-top: 50px;
+    text-align: center;
+}
+#down{
+    margin-top: 15px;
+    margin-left: 30px;
+}
+
